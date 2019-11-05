@@ -12,5 +12,7 @@ This code has some sections:
  
  - The last part is for interpreting the results which come from the above-mentioned functions. 
  
- The data which is used and analyzed here is a binary file (.out file). 
+ When the SWMM input file (“.inp”) is run, the SWMM engine produces two outcome files; report file (“.rpt”) and output file (“.out”). The “.rpt” file is a plain text file that contains the contents of both “Status Report” and “Summary Results”. Whereas the “.out” file is in a binary format, which contains the time series datasets of any defined subcatchment, link or node.
+ 
+ In this project, the .out dataset is used and the source of data. 
 
