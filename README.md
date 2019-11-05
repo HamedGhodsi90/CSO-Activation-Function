@@ -11,4 +11,6 @@ This code has some sections:
     -- Node Activation Function: To calculate the node activation events like CSOs (Combined Sewer Overflow).
  
  - The last part is for interpreting the results which come from the above-mentioned functions. 
+ 
+ The data which is used and analyzed here is a binary file (.out file). 
 
